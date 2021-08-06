@@ -1,0 +1,45 @@
+/* .section{
+    display: flex;
+    padding: 15px;
+   
+    max-width: 250px;
+    align-items: center;
+    cursor: pointer;
+    color: grey;
+    border-width: 0 !important;
+}
+.section-selected{
+    border-width: 3px !important;
+    background-color: whitesmoke;
+   
+   
+}
+.section:hover{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
+.section>h4{
+    font-size: 14px;
+    margin-left: 15px;
+} */
+.section{
+    display: flex;
+    padding: 15px;
+    border-width: 0 !important;
+    color: gray;
+    align-items:center;
+    cursor: pointer;
+    max-width: 120px;
+}
+.section:hover{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
+.section-selected{
+    background-color: whitesmoke;
+    border-width: 3px !important;
+}
+.section>h4{
+    font-size: 16px;
+    margin-left: 10px ;
+}
